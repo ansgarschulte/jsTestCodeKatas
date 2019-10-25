@@ -2,7 +2,7 @@
   "name": "string_calc",
   "version": "1.0.0",
   "description": "",
-  "main": "string_calc.js",
+  "main": "src/string_calc.js",
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.6.4",
