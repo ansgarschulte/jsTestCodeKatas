@@ -6,6 +6,12 @@ describe('fizz buzz game', () => {
         expect(fizzBuzz(2)).toEqual(2);
         expect(fizzBuzz(4)).toEqual(4);
     });
+    test.each([[1, 1], [2,2], [4,4]])(
+        'should return a passed number',
+        (a, expected) => {
+            expect(fizzBuzz(a)).toEqual(expected);
+        },
+    );
     it('should return fizz', () => {
         expect(fizzBuzz(3)).toEqual('Fizz');
     });
