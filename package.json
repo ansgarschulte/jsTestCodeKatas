@@ -1,0 +1,21 @@
+{
+  "name": "string_calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "string_calc.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@types/jest": "^24.0.19",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "testWatch": "jest --watchAll",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Ansgar Schulte <ansgar.schulte@codecentric.de>",
+  "license": "ISC"
+}
